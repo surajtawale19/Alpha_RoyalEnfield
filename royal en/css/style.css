@@ -1,0 +1,660 @@
+body
+{
+  height: 100%;
+  width: 100%; 
+  list-style: none; 
+}
+.navbar navbar-expand-lg bg-body-tertiary
+{
+    
+    margin-bottom: 20px;
+    padding: 15px;
+}
+#login1
+{
+    margin-left: 100px;
+}
+#navbarSupportedContent
+{
+    padding-left: 195px;
+}
+
+/* lecture 2 */
+
+ #img1
+{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 50%;
+    margin-bottom: -44PX;
+}
+ button
+{
+    background-color: red;
+    color: aliceblue;
+    border: none;
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    
+}
+ #btn1
+{
+    bottom: 607px;
+    left: 93px;
+}
+ #btn2
+{
+    bottom: 100px;
+    left: 24px;
+}
+
+/* section #chat1
+{
+    width: 50px;
+} */
+
+#section_card
+{
+    display: flex;
+    width: 100%;
+}
+
+#section_card div
+{
+    width: 25%;
+    overflow: hidden;
+    height: 213px;
+}
+#section_card div img{
+    width: 100%;
+}
+
+#section_card div img:hover
+{
+   transform: scale(1.1);  
+   transition: 0.5s ease-in-out;
+}
+
+
+
+#section_card div p
+{
+    position: relative;
+    bottom: 100px;
+    color: whitesmoke;
+    font-family: "guardiansans-semibold";
+    font-size: 16px;
+    padding: 20px 25px;
+    font-weight: 700;
+    /* background: linear-gradient(0,0,0,0);
+    background: transparent; */
+}
+
+
+#secondary_nav
+{
+    text-decoration: none;
+    box-sizing: border-box;
+    height: 55px;
+    background-color: #212529;
+    color: white;
+    width: 100%;
+    padding-bottom: 1px;
+}
+#secondary_nav h1
+{   
+    display: inline;
+    font-size: 20px;
+    font-family: "guardiansans-semibold";
+    float: left;
+    padding: 11px; 
+}
+#secondary_nav ul li
+{
+  list-style: none;
+  padding-left: 20px;
+  margin-top: 12px;
+  display: inline-block; 
+}
+#secondary_nav ul li:hover
+{
+    color: #73241e;
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 12px;
+    display: inline-block; 
+}
+#last
+{
+    margin-right: 1px;
+}
+
+#image1
+{
+    height: 600px;
+    width: 100%;
+}
+#ex3
+{
+    position: relative;
+    top: 360px;
+    left: 1000px;
+    height: 36px;
+    width: 106px;
+    background-color: #da291c;
+    padding: 7px 15px 7px 12px;
+}
+#sub1
+{
+    position: relative;
+    left: 905px;
+    bottom: 397px;
+    height: 85px;
+    width: 270px;
+}
+
+/* NAVBAR 3 (RIDES) */
+
+.nav3
+{
+    height: 56px;
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+    position: relative;
+    top: 560px;
+    box-sizing: border-box;
+}
+.nav-left
+{
+    float: left;
+    padding: 5px;
+    padding-left: 35px;
+}
+.nav-right ul li
+{
+    display: inline-block;
+    font-size: 16px;
+    list-style: none;
+    padding-left: 40px;
+    margin-top: 16px;
+    
+}
+.nav-right ul li:hover
+{
+    color: #73241e;
+    display: inline-block;
+    font-size: 16px;
+    list-style: none;
+    padding-left: 40px;
+    margin-top: 16px;
+    display: inline-block;
+}
+.nav-right ul img
+{
+    height: 605px;
+    width: 102.4%;
+    margin-left: -32px;
+}
+
+.same
+{
+    display: inline-block;
+    position: relative;
+    bottom: 368px;
+    left: 973px;
+}
+.same h2
+{
+    display: block;
+    color: #ffffff;
+    font: 24px;
+    margin: 0px 0px 15px;
+}
+.same button
+{
+   
+    width: 160px;
+    height: 40px;
+    font: 14px;
+    background-color: #da291c;
+    padding: 1px 15px 1px 4px;
+}
+
+
+/* NAV BAR 4 :(APPAREL) */
+
+.nav4
+{
+    position: relative;
+    top: 1165px;
+    height: 61px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    padding: 0px 0px 0px 30px;
+    display: block;
+
+}
+.nav_left1 h2
+{
+    position: relative;
+    left: -90px;
+    top: 5px;
+     
+}
+.nav_right1 ul li
+{
+    display: inline-block;
+    list-style: none;
+    margin-right: 15px;
+    position: relative;
+    bottom: 30px;
+    left: 115px;
+}
+.nav_right1 ul li:hover
+{
+    color: #73241e;
+    display: inline-block;
+    list-style: none;
+    margin-right: 15px;
+    position: relative;
+    bottom: 30px;
+    left: 115px;
+}
+.nav4 img
+{
+    height: 605px;
+    width: 102.3%;  
+    margin-left: -30px;
+    margin-top: -25px;
+}
+#btn5
+{
+    position: relative;
+    bottom: 310px;
+    left: 42px;
+    height: 42px;
+    width: 132px;
+}
+
+    /* NAVBAR 5 Accesaries  */
+
+.nav5
+{
+    position: relative;
+    top: 1770px;
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.nav_left2 h2
+{
+    position: relative;
+    
+    top: 7px;
+    margin-left: 20px;
+    display: block;
+}
+.nav_right2 ul li
+{
+    
+    display: inline-block;
+    list-style: none;
+    margin-right: 28px;
+    position: relative;
+    bottom: 30px;
+    left: 245px;
+    font-size: 14px;
+}
+.nav_right2 ul li:hover
+{
+    color: #73241e;
+    display: inline-block;
+    list-style: none;
+    margin-right: 28px;
+    position: relative;
+    bottom: 30px;
+    left: 245px;
+    font-size: 14px;
+}
+#btn6
+{
+    position: relative;
+    top: 1663px;
+    left: 945px;
+    height: 35px;
+    width: 130px;
+    padding: 6px 8px 8px 8px;
+
+}
+
+        /* NAVBAR 6(LOCATE US) */
+
+.nav6
+{
+    position: relative;
+    top: 1735px;
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.nav_left3 h2
+{
+    position: relative;
+    top: 13px;
+    margin-left: 25px;
+}
+.nav_right3 ul li
+{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    bottom: 25px;
+    left: 160px;
+    margin-left: 15px;
+}
+.nav_right3 ul li:hover
+{
+    color: #73241e;
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    bottom: 25px;
+    left: 160px;
+    margin-left: 15px;
+}
+.same1
+{
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: 1388px;
+    left: 125px;
+}
+.same1 h2
+{
+    font-weight: 900;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.same1 button
+{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.same1 button:hover
+{ 
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+    border-radius: 2px;
+}
+
+
+/* NAVBAR 7 POPULAR */
+
+.sec_7
+{
+    position: relative;
+    top: 1633px;
+    height: 60px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+
+    /* CARDS2 */
+
+.autocards
+{
+    position: relative;
+    top: 1633px;
+   
+} 
+    
+
+/* .card2 
+{
+    width: 100%;
+    position: relative;
+    top: 1633px;
+}
+.card2 div
+{
+     display: inline-block;
+    /* background-color: lightgrey; */
+    /* width: 25%; */
+    /* height: 420px;
+    border: 0.5px solid black; */
+} */ */
+/* .div2
+{
+    margin-left: -5px;
+    margin-right: -4px;
+}
+.div3
+{
+    margin-right: -5px;
+}
+.card2 div img
+{
+    width: 24.7%;
+
+} */
+
+/* ICON SECTION */
+
+.iconsec
+{
+    width: 100%;
+    position: relative;
+    top: 1527px;
+    height: 157px;
+    background-color: rgb(80, 75, 75);
+    color: white;
+}
+.all
+{
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 152px;
+}
+ .iconsec div
+{
+    display: inline-block;
+    margin-left: 120px;
+}
+.div_1,.div_2,.div_3,.div_4
+{
+    height: 137px;;
+}
+.fa.fa-hand-o-up 
+{
+    font-size: 85px;
+    padding-top: 10px;
+    color: gray;
+}
+.div_1,.div_2,.div_3 p
+{
+    padding: 13px 20px 10px 0;
+}
+.fa.fa-map
+{
+    font-size: 90px;
+    color: gray;
+}
+.div4 img
+{
+    height: 82px;
+}
+.all p
+{
+    margin-top: 9px;
+}
+
+        /* FOOTER */
+
+.footer
+{
+    width: 100%;
+    position: relative;
+    top: 1627px;
+    height: 520px;
+    background-color: #e5e3e3;
+    color:black;
+}
+.all1
+{
+    /* border: 0.5px dotted black; */
+}
+.social
+{
+    border-bottom: 0.5px dotted black;
+    padding: 0px 0px 0px 5px;
+    margin: 0px 20px 0px 20px;
+}
+.social p
+{
+    margin-bottom: 0px;
+}
+.social ul
+{
+    margin-left: 960px;
+    padding: 35px 4px 15px 5px;
+}
+.social ul li
+{
+    margin-left: 18px;
+    display: inline-block;
+    list-style: none;
+}
+.fa.fa-facebook-official
+{
+    font-size: 25px;
+}
+.fa.fa-twitter
+{
+    font-size: 26px;
+}
+.fa.fa-youtube-play
+{
+    font-size: 26px;
+}
+.fa.fa-instagram
+{
+    color: black;
+    font-size: 25px;
+}
+/* HOVER*/
+
+.fa.fa-facebook-official:hover
+{
+    color: #385699;
+    font-size: 25px;
+}
+.fa.fa-twitter:hover
+{
+    color: #22cbff;
+    font-size: 26px;
+}
+.fa.fa-youtube-play:hover
+{
+    color: #da291c;
+    font-size: 26px;
+}
+.fa.fa-instagram:hover
+{
+    color: #32628a;
+    font-size: 25px;
+}
+
+/* FOOTER LOWER */
+
+.bottom
+{
+    height: 1px;
+    width: 100%;
+    padding: 70px 80px;
+}
+.bottom div
+{
+    line-height: 31px;
+    /* display: flex; */
+    border: 0.5px solid black;
+    /* display: inline-block; */
+}
+span
+{
+    color: black;
+    font-size: 20px;
+}
+.row1
+{
+    height: 359px;
+    width: 165px;
+    border: 0.5px solid black;
+    position: relative;
+    bottom: 30px;
+    left: 16px;
+}
+.row2,.row3,.row4,.row5,.row6,.row7
+{
+    height: 359px;
+    width: 165px;
+}
+.row2
+{
+    border: 0.5px solid black;
+    position: relative;
+    bottom: 389px;
+    left: 180px;
+}
+.row3
+{
+    border: 0.5px solid black;
+    position: relative;
+    bottom: 748px;
+    left: 344px;
+}
+.row4
+{
+    border: 0.5px solid black;
+    position: relative;
+    bottom: 1107px;
+    left: 508px;
+}
+.row5
+{
+    border: 0.5px solid black;
+    position: relative;
+    bottom: 1466px;
+    left: 672px;
+}
+.row6
+{
+    border: 0.5px solid black;
+    position: relative;
+    bottom: 1825px;
+    left: 836px;
+}
+.row7
+{
+    border: 0.5px solid black;
+    position: relative;
+    bottom: 2184px;
+    left: 1000px;
+}
+
+#drop select
+{
+    border: none;
+    background-color: #e5e3e3;
+}

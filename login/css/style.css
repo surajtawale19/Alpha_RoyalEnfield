@@ -1,0 +1,64 @@
+body
+{
+    background:url(../photo/sky1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+form
+{
+    background:rgb(245, 227, 206);
+    height: 350px;
+    width: 333px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    line-height: 40px;
+}
+h1
+{
+    text-align: center;
+}
+label
+{
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+
+}
+input
+{
+    border-radius: 5px;
+    height: 20px;
+}
+
+button
+{
+    height: 36px;
+    width: 80px;
+    padding: 8px;
+    margin-left: 120px;
+    border: 0.5px solid;
+    border-radius: 5px;
+    background-color: rgb(137, 169, 238);
+}
+button:hover
+{
+    height: 36px;
+    width: 80px;
+    padding: 8px;
+    margin-left: 120px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(84, 75, 165);
+}
+#un1,#ps1
+{
+    font-size: 15px;
+    color: rgb(255, 0, 0);
+}

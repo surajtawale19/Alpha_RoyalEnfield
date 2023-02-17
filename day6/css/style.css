@@ -1,0 +1,51 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background: url(../photo/dark3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+form
+{
+    height: 450px;
+    width: 300px;
+    background: rgba(0, 0, 0, .6);
+    color: white;
+    margin: auto;
+    line-height: 26px;
+    padding: 30px;
+    border-radius: 20px;
+}
+form h1
+{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 4px;
+}
+form label
+{
+    font-weight: 900;
+    /* color: black; */
+}
+form input
+{
+    border-radius: 4px;
+    border: 0.5px solid lightslategrey;
+}
+button
+{
+    position: relative;
+    top: 16px;
+    left: 115px;
+}
+
+span
+{
+    color: red;
+    font-size: 16px;
+
+}
